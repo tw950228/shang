@@ -1,0 +1,36 @@
+*{margin:0px;padding:0px;}
+li{list-style:none;}
+a{text-decoration:none;}
+html,body{width:100%;height:100%;}
+
+.bgs{width:100%;height:100%;position:relative;
+    .img-bg{width:100%;height:100%;}   
+    .img-bar{position:absolute;left:50%;margin-left:-237px;top:50%;margin-top:165px;}
+    .img-logo{width:250px;height:66px;position:absolute;left:50%;margin-left:-125px;top:50%;margin-top:-290px;}
+    .img-shopex{position:absolute;left:50px;;top:50px;}
+    .loading{width:443px;height:350px;background:#edebeb;position:absolute;left:50%;top:50%;margin-top:-175px;margin-left:-221px;
+        .divLoad{width:300px;height:300px;margin:auto;margin-top:50px;
+            div{width:298px;height:48px;margin:auto;border:1px solid #ddd;color:#999;font-size:12px;line-height:48px;
+
+            }
+            .divName{border-radius:5px 5px 0px 0px;border-bottom:none;background:#fff url(../img/login_03.png) no-repeat 14px center;
+                .iptName{height:48px;width:248px;border:none;background-color:rgba(255,255,255,0);}
+            }
+            .divPassword{border-bottom:none;background:#fff url(../img/login_06.png) no-repeat 14px center;
+                .iptPassword{height:48px;width:248px;border:none;background-color:rgba(255,255,255,0);}
+            }
+            .divVer{border-radius:0px 0px 5px 5px;background:#fff url(../img/login_08.png) no-repeat 14px center;position:relative;
+                .iptVer{height:48px;width:132px;border:none;background-color:rgba(255,255,255,0);}
+                .ver{width:104px;height:36px;border:1px solid #999;position:absolute;right:8px;top:5px;background:skyblue;               
+                font-size:26px;color:#fff;letter-spacing: 8px;line-height:36px;text-align:center;cursor:pointer;}
+            }
+            .btnLoad{width:300px;height:50px;border:none;border-radius:5px;background:#fc7878;font-size:16px;color:#fff;text-align:center;margin-top:20px;cursor:pointer;}
+            .divSel{height:30px;line-height:30px;border:none;
+                .spanSel{margin:0px;}
+                a{color:#41a5e1;cursor:pointer;}
+                .aa{margin-left:23px;margin-right:40px;}
+                a:hover{text-decoration:underline;}
+            }
+        }
+    }
+}
